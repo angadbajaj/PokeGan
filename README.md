@@ -26,6 +26,8 @@ I use a Binary Cross Entropy loss (BCELoss) function which is defined in PyTorch
 Training time:
 1-2 hours on google collab (GPU)
 
+to run do this in collab (after getting the dataset like i got the pokemon dataset from kaggle): !python main.py --dataset folder --dataroot /content/pokemon/  --cuda --niter 1000 --workers 8
+
 Sources:
 
 https://gluon.mxnet.io/chapter14_generative-adversarial-networks/dcgan.html
@@ -38,7 +40,7 @@ https://towardsdatascience.com/how-to-create-unique-pok%C3%A9mon-using-gans-ea1c
 
 https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
 
- https://www.kaggle.com/kvpratama/pokemon-images-dataset
+https://www.kaggle.com/kvpratama/pokemon-images-dataset
 
 
 
